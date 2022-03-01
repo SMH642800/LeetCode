@@ -35,11 +35,12 @@ class Solution:
         for i in range(len(nums)):
             if nums[i] == target:
                 res.append(i)
-	  """
-	  for i, x in enumerate(nums):
-            if x == target:
-                res.append(i)
+
 		"""
+		for i, x in enumerate(nums):
+			if x == target:
+				res.append(i)
+		=======================================
 		>>> seq = ['one', 'two', 'three']
 		>>> for i, element in enumerate(seq):
 		...     print i, element
@@ -48,6 +49,5 @@ class Solution:
 		1 two
 		2 three
 		"""
-	  """
         
         return res
